@@ -1,0 +1,45 @@
+version: '3.8'
+
+services:
+  web:
+    build: .
+    container_name: ussd-factory-stock
+    ports:
+      - "8080:80"
+    environment:
+      - DB_HOST=db
+      - DB_NAME=mubeetec_portfolio_db
+      - DB_USER=mubeetec_mubee
+      - DB_PASS=Mubee2019@
+      - AT_USERNAME=sandbox
+      - AT_API_KEY=atsk_7e5a604de6579f58e0b1d49d31e4c0d64aeb1bf616856763f4fb32d096e68fa3073efc86
+      - AT_SENDER_ID=94409
+    volumes:
+      - ./:/var/www/html
+    depends_on:
+      - db
+    networks:
+      - ussd-network
+
+  db:
+    image: mysql:8.0
+    container_name: ussd-db
+    environment:
+      - MYSQL_ROOT_PASSWORD=root_password
+      - MYSQL_DATABASE=mubeetec_portfolio_db
+      - MYSQL_USER=mubeetec_mubee
+      - MYSQL_PASSWORD=Mubee2019@
+    ports:
+      - "3307:3306"
+    volumes:
+      - db_data:/var/lib/mysql
+      - ./mubeetec_portfolio_db.sql:/docker-entrypoint-initdb.d/init.sql
+    networks:
+      - ussd-network
+
+volumes:
+  db_data:
+
+networks:
+  ussd-network:
+    driver: bridge

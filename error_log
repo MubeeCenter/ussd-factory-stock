@@ -1,0 +1,25 @@
+[29-Aug-2026 14:09:47 UTC] PHP Warning:  require_once(/home/mubeetec/ussd.mubeetech.com.ng/../includes/config.php): Failed to open stream: No such file or directory in /home/mubeetec/ussd.mubeetech.com.ng/callback.php on line 15
+[29-Aug-2026 14:09:47 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/mubeetec/ussd.mubeetech.com.ng/../includes/config.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/mubeetec/ussd.mubeetech.com.ng/callback.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/mubeetec/ussd.mubeetech.com.ng/callback.php on line 15
+[29-Aug-2026 14:09:47 UTC] PHP Warning:  require_once(/home/mubeetec/ussd.mubeetech.com.ng/../includes/config.php): Failed to open stream: No such file or directory in /home/mubeetec/ussd.mubeetech.com.ng/callback.php on line 15
+[29-Aug-2026 14:09:47 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/mubeetec/ussd.mubeetech.com.ng/../includes/config.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/mubeetec/ussd.mubeetech.com.ng/callback.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/mubeetec/ussd.mubeetech.com.ng/callback.php on line 15
+[29-Aug-2026 14:12:08 UTC] PHP Warning:  require_once(/home/mubeetec/ussd.mubeetech.com.ng/../includes/config.php): Failed to open stream: No such file or directory in /home/mubeetec/ussd.mubeetech.com.ng/callback.php on line 15
+[29-Aug-2026 14:12:08 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/mubeetec/ussd.mubeetech.com.ng/../includes/config.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/mubeetec/ussd.mubeetech.com.ng/callback.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/mubeetec/ussd.mubeetech.com.ng/callback.php on line 15
+[29-Aug-2026 14:18:08 UTC] PHP Warning:  require_once(/home/mubeetec/ussd.mubeetech.com.ng/../includes/config.php): Failed to open stream: No such file or directory in /home/mubeetec/ussd.mubeetech.com.ng/callback.php on line 15
+[29-Aug-2026 14:18:08 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/mubeetec/ussd.mubeetech.com.ng/../includes/config.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/mubeetec/ussd.mubeetech.com.ng/callback.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/mubeetec/ussd.mubeetech.com.ng/callback.php on line 15
+[29-Aug-2026 14:18:09 UTC] PHP Warning:  require_once(/home/mubeetec/ussd.mubeetech.com.ng/../includes/config.php): Failed to open stream: No such file or directory in /home/mubeetec/ussd.mubeetech.com.ng/callback.php on line 15
+[29-Aug-2026 14:18:09 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/mubeetec/ussd.mubeetech.com.ng/../includes/config.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/mubeetec/ussd.mubeetech.com.ng/callback.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/mubeetec/ussd.mubeetech.com.ng/callback.php on line 15
